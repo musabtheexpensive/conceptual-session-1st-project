@@ -59,3 +59,48 @@
     border: none;
 
 }
+.about-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.text-about{
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px; 
+    padding: 10px 20px;
+    border: none;
+
+}
+.box-title{
+padding: 10px;
+}
+.box-description{
+pad: 5px;
+}
+.service-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./background1.jpg"),linear-gradient(45deg,#0f0f0f00,#f3eded);
+    color: white;
+}
